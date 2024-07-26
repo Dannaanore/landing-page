@@ -6,41 +6,43 @@
 -->
 <html>
 	<head>
-		<title>Tessellate by HTML5 UP</title>
+		<title>Danna Anore</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<script defer src="app.js"></script>
 	</head>
 	<body class="is-preload">
 
+
 		<!-- Header -->
-			<section id="header" class="dark">
+			<section id="header" class="dark" data-aos="fade-in" data-aos-duration="2000">
 				<header>
 					<h1>Danna Anore</h1>
-					<p>A free responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
 				</header>
 				<footer>
-					<a href="#first" class="button scrolly">Proceed to second phase</a>
+					<a href="https://www.bold.pro/my/dannafrancesca-anore" class="button scrolly">Resume</a>
 				</footer>
 			</section>
 
 		<!-- First -->
-			<section id="first" class="main">
+			<section id="first" class="main" data-aos="fade-right" data-aos-duration="1000">
 				<header>
 					<div class="container">
-						<h2>Tessellate is a free responsive site template</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+						<h2>Experience</h2>
+						<p>“Without leaps of imagination or dreaming,<br/>
+						we lose the excitement of possibilities. Dreaming, after all, is a form of planning.” —Gloria Steinem</p>
 					</div>
 				</header>
 				<div class="content dark style1 featured">
 					<div class="container">
 						<div class="row">
 							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon fa-clock"></span></span>
+								<section data-aos="fade-right" data-aos-duration="1000">
+									<span class="feature-icon"><span class="icon fa-school"></span></span>
 									<header>
-										<h3>Gravida</h3>
+										<h3>Software Engineering Student</h3>
 									</header>
 									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
 									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
@@ -49,10 +51,10 @@
 								</section>
 							</div>
 							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon solid fa-bolt"></span></span>
+								<section data-aos="fade-right" data-aos-duration="1000">
+									<span class="feature-icon"><span class="icon solid fa-laptop"></span></span>
 									<header>
-										<h3>Vivamus</h3>
+										<h3>Accepted HeadStarter Fellow </h3>
 									</header>
 									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
 									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
@@ -61,10 +63,10 @@
 								</section>
 							</div>
 							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon solid fa-cloud"></span></span>
+								<section data-aos="fade-right" data-aos-duration="1000">
+									<span class="feature-icon"><span class="icon solid fa-code"></span></span>
 									<header>
-										<h3>Accumsan</h3>
+										<h3>Data Structures & Algorithms</h3>
 									</header>
 									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
 									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
@@ -74,7 +76,7 @@
 							</div>
 							<div class="col-12">
 								<footer>
-									<a href="#second" class="button scrolly">Gravida tempor lacinia</a>
+									<a href="https://github.com/Dannaanore" class="button scrolly">GitHub</a>
 								</footer>
 							</div>
 						</div>
@@ -83,7 +85,7 @@
 			</section>
 
 		<!-- Second -->
-			<section id="second" class="main">
+			<section id="second" class="main" data-aos="fade-left" data-aos-duration="1000">
 				<header>
 					<div class="container">
 						<h2>Euismod sed feugiat lorem tempus magna</h2>
@@ -95,7 +97,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-4 col-12-narrow">
-								<section>
+								<section data-aos="fade-left" data-aos-duration="1000">
 									<h3>Augue vivamus sed ipsum commodo lorem dolor</h3>
 									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
 									tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
@@ -126,7 +128,7 @@
 			</section>
 
 		<!-- Third -->
-			<section id="third" class="main">
+			<section id="third" class="main" data-aos="fade-right" data-aos-duration="1000">
 				<header>
 					<div class="container">
 						<h2>Ornare varius lorem ipsum ante lectus</h2>
@@ -348,6 +350,7 @@
 		-->
 
 		<!-- Fourth -->
+		<!-- 
 			<section id="fourth" class="main">
 				<header>
 					<div class="container">
@@ -374,9 +377,10 @@
 					</div>
 				</div>
 			</section>
+ 		-->
 
 		<!-- Footer -->
-			<section id="footer">
+			<section id="footer" class="hidden" data-aos="fade-in" data-aos-duration="1000">
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -398,6 +402,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+			  AOS.init();
+			</script>
 
 	</body>
 </html>
