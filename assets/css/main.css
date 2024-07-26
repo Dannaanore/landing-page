@@ -125,7 +125,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #666;
 		margin: 0 0 1em 0;
-		font-weight: 200;
+		font-weight: 100;
 		line-height: 1.5em;
 	}
 
@@ -2183,7 +2183,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bgsc.png");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -2251,15 +2251,15 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				background-image: url("images/overlay.png"), url("../../images/bgsc5.png");
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				background-image: url("images/overlay.png"), url("../../images/bgsc4.png");
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				background-image: url("images/overlay.png"), url("../../images/bgsc.png");
 			}
 
 			.main > .content.style4 {
